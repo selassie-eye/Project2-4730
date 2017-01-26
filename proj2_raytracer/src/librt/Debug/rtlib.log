@@ -1,0 +1,32 @@
+﻿Build started 1/24/2017 3:23:33 PM.
+     1>Project "C:\UF_Teaching\CAP4730\prog\proj2_raytracer\submit\src\librt\rtlib.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\librt.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./include/ /I../libst/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Light.cpp
+         Light.cpp
+         Camera.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"lib/Debug\librt.lib" /NOLOGO Debug\Camera.obj
+         Debug\Intersection.obj
+         Debug\Light.obj
+         Debug\LinearSolver.obj
+         Debug\Ray.obj
+         Debug\RayTracer.obj
+         Debug\RGBR_f.obj
+         Debug\Scene.obj
+         Debug\Shader.obj
+         Debug\Sphere.obj
+         Debug\Surface.obj
+         Debug\Triangle.obj
+         Debug\utilities.obj
+         rtlib.vcxproj -> C:\UF_Teaching\CAP4730\prog\proj2_raytracer\submit\src\librt\lib/Debug\librt.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\librt.unsuccessfulbuild".
+         Touching "Debug\librt.lastbuildstate".
+     1>Done Building Project "C:\UF_Teaching\CAP4730\prog\proj2_raytracer\submit\src\librt\rtlib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.25
