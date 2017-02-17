@@ -1,5 +1,6 @@
 // STVector3.cpp
 #include "STVector3.h"
+#include <stdio.h>
 
 //
 
