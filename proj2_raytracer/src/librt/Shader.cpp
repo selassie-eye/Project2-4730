@@ -30,7 +30,7 @@ RGBR_f Shader::Run(Intersection *pIntersection, STVector3 *lightDirection)
 {
     RGBR_f color;
 
-    if (pIntersection->isNull){
+    if (pIntersection->isNull()){
       color = RGBR_f(255, 0, 0, 255);
       return color;
     }
