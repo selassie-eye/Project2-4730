@@ -49,13 +49,13 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
     pShader->SetMode(mode);
 
 
-    int width = 640;
-    int height = 480;
+    int width = 320;
+    int height = 400;
     RGBR_f bkground = pScene->GetBackgroundColor();
     STImage *pImg = new STImage(width, height, STImage::Pixel(bkground.r*255, bkground.g*255, bkground.b*255, bkground.a*255));
     Camera *cam = pScene->GetCamera();
     Intersection *intersec;
-    STImage::Pixel paint = STImage::Pixel(0,1,0,1);
+    STImage::Pixel paint = STImage::Pixel(0,255,0,255);
     std::cout << "Scene initialized" << std::endl;
 
     // TO DO: Proj2 raytracer
