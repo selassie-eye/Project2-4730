@@ -86,7 +86,7 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
     std::cout << "Intersection surface added" << std::endl;
     std::cout << "Intersection object created" << std::endl;
 
-    pIntersection = &temp;
+    pIntersection = temp;
 
    //------------------------------------------------------
 
