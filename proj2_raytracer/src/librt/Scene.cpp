@@ -130,7 +130,6 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
     std::cout << "SurfaceList iterators initialized" << std::endl;
 
     for (; iter != end; ++iter) {
-
         // TO DO: Proj2 raytracer
         //          - Find Intersections.
         // 1. Find intersections with objects in the scene
@@ -144,6 +143,7 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
         if (bFound){
           std::cout << "Intersection found" << std::endl;
           numPoints++;
+          if (bAny) return numPoints;
         }
     }
 

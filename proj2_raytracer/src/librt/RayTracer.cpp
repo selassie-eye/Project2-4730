@@ -7,6 +7,7 @@
 
 #include "RayTracer.h"
 #include <assert.h>
+#include <math.h>
 #include <stdio.h>
 #include <string>
 #include "utilities.h"
@@ -48,8 +49,8 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
     pShader->SetMode(mode);
 
 
-    int width = 320;
-    int height = 400;
+    int width = 640;
+    int height = 480;
     RGBR_f bkground = pScene->GetBackgroundColor();
     STImage *pImg = new STImage(width, height, STImage::Pixel(bkground.r*255, bkground.g*255, bkground.b*255, bkground.a*255));
     Camera *cam = pScene->GetCamera();
@@ -71,15 +72,32 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
     // If you compute color channels in a range 0-1 you must convert
     //------------------------------------------------
     Ray *camRay = new Ray();
-    camRay->SetDirection(cam->LookAt());
     camRay->SetOrigin(cam->Position());
-    std::cout << "Camera and ray initialized" << std::endl;
-    int intCount = pScene->FindIntersection(*camRay, intersec, true);
-    std::cout << "Scene.FindIntersection complete" << std::endl;
-    if (intCount >= 0){
-      for (int i = 0; i < 50; i++)
-      pImg->SetPixel(i, i, *paint);
-      std::cout << "Pixels painted" << std::endl;
+
+    float iWidth = 1/float(width);
+    float iHeight = 1/float(height);
+    float fov = 30;
+    float aspectRatio = float(width/height);
+    float angle = tan(M_PI * 0.5 * fov / 180.0);
+
+    for (int x = 0; x < width; x++){
+      for(int y = 0; y < height; y++){
+        float xRend = (2 * ((x + 0.5) * iWidth) - 1) * angle * aspectratio;
+        float yRend = (1 - 2 * ((y + 0.5) * iHeight)) * angle;
+        STVector3 dir = new STVector3(xx, yy, 1);
+        dir.Normalize();
+        camRay->SetDirection(dir);
+        std::cout << "Camera and ray initialized" << std::endl;
+
+        int intCount = pScene->FindIntersection(*camRay, intersec, true);
+        intersectionList.push_back(intersec);
+        std::cout << "Scene.FindIntersection complete, intersection added" << std::endl;
+
+        if (intCount >= 0){
+          pImg->SetPixel(x, y, *paint);
+          std::cout << "Pixels painted" << std::endl;
+        }
+      }
     }
     ///-----------------------------------------------
 
