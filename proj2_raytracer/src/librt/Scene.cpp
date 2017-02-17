@@ -145,6 +145,7 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
           numPoints++;
           if (bAny) return numPoints;
         }
+        else return 0;
     }
 
     // TO DO: Proj2 raytracer

@@ -45,17 +45,17 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
     //------------------------------------------------
     STVector3 l = m_center - ray.Origin();
     //std::cout << "Length vector: ";
-    l.Print();
+    //l.Print();
     float tca = STVector3::Dot(l, ray.Direction());
     //std::cout << "tca: " << tca << std::endl;
     if (tca < 0){
-      //std::cout << "No intersection" << std::endl;
+      std::cout << "No intersection" << std::endl;
       return false;
     }
     float d = sqrtf((STVector3::Dot(l, l) - (tca*tca)));
     //std::cout << "d: " << d << std::endl;
     if (d > m_radius) {
-      //std::cout << "No intersection" << std::endl;
+      std::cout << "No intersection" << std::endl;
       return false;
     }
     float thc = sqrtf((m_radius * m_radius) - (d*d));
@@ -74,12 +74,12 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
 
     STVector3 p = ray.Origin() + (t * ray.Direction());
     //std::cout << "p: ";
-    p.Print();
+    //p.Print();
 
     STVector3 norm = p - m_center;
     norm.Normalize();
     //std::cout << "norm: ";
-    norm.Print();
+    //norm.Print();
 
 
     temp->setDistanceSqu(t);
