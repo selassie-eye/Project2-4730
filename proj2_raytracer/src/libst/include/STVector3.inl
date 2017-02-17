@@ -8,6 +8,7 @@
 
 #include "STPoint3.h"
 #include <stdio.h>
+#include <iostream>
 #include "STUtil.h" // for STMin, STMax
 
 //

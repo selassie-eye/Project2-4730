@@ -5,6 +5,7 @@
 #include "stForward.h"
 
 #include <stdio.h>
+#include <iostream>
 #include <math.h>
 
 /**
