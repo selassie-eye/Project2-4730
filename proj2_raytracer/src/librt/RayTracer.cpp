@@ -73,7 +73,7 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
     camRay->SetDirection(cam->LookAt());
     camRay->SetOrigin(cam->Position());
     int intCount = pScene->FindIntersection(*camRay, intersec, true);
-    if (intCount > 0){
+    if (intCount >= 0){
       for (int i = 0; i < 50; i++)
       pImg->SetPixel(i, i, *paint);
     }
