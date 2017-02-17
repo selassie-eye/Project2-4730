@@ -36,7 +36,7 @@ void Camera::SetUpAndRight(void)
 // reset the camera position
 void Camera::Reset(void)
 {
-    m_LookAt=STVector3(0.f,0.f,0.f);
+    m_LookAt=STVector3(0.f,0.f,1.f);
     m_Position=STVector3(0.f,0.f,0.f);
     m_Up=STVector3(0.f,1.f,-1.f);
 
@@ -44,7 +44,7 @@ void Camera::Reset(void)
 }
 
 
-// reset the camera up vector 
+// reset the camera up vector
 void Camera::ResetUp(void)
 {
     m_Up = STVector3(0.f,1.f,0.f);
