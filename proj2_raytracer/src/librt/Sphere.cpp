@@ -57,7 +57,7 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
 
     float t0 = tca - thc;
     std::cout << "t0: " << t0 << std::endl;
-    float t1 = tca - thc;
+    float t1 = tca + thc;
     std::cout << "t1: " << t1 << std::endl;
 
 
@@ -65,7 +65,7 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
     std::cout << "t: " << t << std::endl;
 
 
-    STVector3 p = ray.Origin() + (t * ray.Direction());
+    STVector3 p = ray.Origin() - (t * ray.Direction());
     std::cout << "p: ";
     p.Print();
 
