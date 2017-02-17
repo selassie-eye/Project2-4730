@@ -140,7 +140,7 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
         bFound = surf->FindIntersection(ray, pIntersection);
         if (bFound){
           numPoints++;
-          intersectionList.push_back(&pIntersection);
+          intersectionList.push_back(pIntersection);
         }
 
     }
