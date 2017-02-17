@@ -74,6 +74,7 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
     std::cout << "norm: ";
     norm.Print();
 
+    /*
     pIntersection->distanceSqu = t;
     std::cout << "Intersection distance added" << std::endl;
     pIntersection->point = p;
@@ -83,6 +84,7 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
     pIntersection->surface = this;
     std::cout << "Intersection surface added" << std::endl;
     std::cout << "Intersection object created" << std::endl;
+    */
 
    //------------------------------------------------------
 
