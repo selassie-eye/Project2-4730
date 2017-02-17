@@ -4,6 +4,7 @@
 
 #include "stForward.h"
 
+#include <stdio.h>
 #include <math.h>
 
 /**
@@ -49,6 +50,14 @@ struct STVector3
     // Validation
     //
     inline bool Valid() const;
+
+    //
+    // Printing
+    //
+    inline void Print()
+    {
+      std::cout << "X: " << x << " Y: " << y << " Z: " << z;
+    }
 
     //
     // Component accessors
@@ -99,4 +108,3 @@ inline STVector3 operator-(const STPoint3& left, const STPoint3& right);
 #include "STVector3.inl"
 
 #endif  // __STVECTOR3_H__
-

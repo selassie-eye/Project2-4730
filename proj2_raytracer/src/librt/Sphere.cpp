@@ -42,7 +42,7 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
     // hit point, surface normal, the time t of the ray at the hit point
     // and the surface being hit
     //------------------------------------------------
-    STVector3 l = m_center - ray.Direction();
+    STVector3 l = m_center - ray.Origin();
     float tca = STVector3::Dot(l, ray.Direction());
     if (tca < 0) return false;
     float d = sqrtf((STVector3::Dot(l, l) - (tca*tca)));

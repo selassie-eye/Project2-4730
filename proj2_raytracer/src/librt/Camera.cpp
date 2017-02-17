@@ -37,6 +37,7 @@ void Camera::SetUpAndRight(void)
 void Camera::Reset(void)
 {
     m_LookAt=STVector3(0.f,0.f,1.f);
+    m_LookAt.Normalize();
     m_Position=STVector3(0.f,0.f,0.f);
     m_Up=STVector3(0.f,1.f,-1.f);
 
