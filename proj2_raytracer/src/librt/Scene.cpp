@@ -125,7 +125,7 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
 
     SurfaceList::const_iterator iter = m_surfaceList.begin();
     SurfaceList::const_iterator end  = m_surfaceList.end();
-    Surface *surf;
+    Surface surf;
 
     for (; iter != end; ++iter) {
 
