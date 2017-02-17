@@ -82,9 +82,9 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
 
     for (int x = 0; x < width; x++){
       for(int y = 0; y < height; y++){
-        float xRend = (2 * ((x + 0.5) * iWidth) - 1) * angle * aspectratio;
+        float xRend = (2 * ((x + 0.5) * iWidth) - 1) * angle * aspectRatio;
         float yRend = (1 - 2 * ((y + 0.5) * iHeight)) * angle;
-        STVector3 dir = new STVector3(xx, yy, 1);
+        STVector3 dir = new STVector3(xRend, yRend, 1);
         dir.Normalize();
         camRay->SetDirection(dir);
         std::cout << "Camera and ray initialized" << std::endl;
