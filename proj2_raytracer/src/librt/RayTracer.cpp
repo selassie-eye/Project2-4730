@@ -72,8 +72,7 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
     //------------------------------------------------
     Ray *camRay = new Ray();
     camRay->SetOrigin(cam->Position());
-    STVector3 temp = pScene->GetLightDirection();
-    STVector3 *lightDir = &temp;
+    STVector3 *lightDir = pScene->GetLightDirection();
 
     float iWidth = 1/float(width);
     float iHeight = 1/float(height);
@@ -83,7 +82,7 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
 
     for (int x = 0; x < width; x++){
       for(int y = 0; y < height; y++){
-        *intersec = Intersection();
+        intersec = new Intersection();
         float xRend = (2 * ((x + 0.5) * iWidth) - 1) * angle * aspectRatio;
         float yRend = (1 - 2 * ((y + 0.5) * iHeight)) * angle;
         STVector3 dir = STVector3(xRend, yRend, 1);
@@ -93,7 +92,7 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
 
         int intCount = pScene->FindIntersection(*camRay, intersec, true);
         //std::cout << "Scene.FindIntersection complete, intersection added" << std::endl;
-        RGBR_f color = pShader->Run(intersec, lightDir);
+        RGBR_f color = pShader->Run(intersec, *lightDir);
         STImage::Pixel paint = STImage::Pixel(color.r,color.g,color.b,color.a);
         if (intCount > 0){
           pImg->SetPixel(x, y, paint);
