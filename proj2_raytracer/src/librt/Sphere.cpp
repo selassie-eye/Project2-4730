@@ -56,11 +56,10 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
     STVector3 norm = p - m_center;
     norm.Normalize();
 
-    Intersection int = new Intersection();
-    int.setDistanceSqu(t);
-    int.setPoint(p);
-    int.setNormal(norm);
-    int.setSurface(*this);
+    pIntersection->setDistanceSqu(t);
+    pIntersection->setPoint(p);
+    pIntersection->setNormal(norm);
+    pIntersection->setSurface(*this);
 
    //------------------------------------------------------
 
