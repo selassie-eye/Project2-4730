@@ -94,11 +94,11 @@ void Setup(void)
     pScene->AddLight(*light1);
     Surface *sphere = new Sphere();
     pScene->AddSurface(sphere);
+    std::cout << "Scene initialize" << std::endl;
     //------------------------------------------------
 
     // init a ray tracer object
     pRayTracer = new RayTracer();
-
 }
 
 
@@ -297,6 +297,8 @@ int main(int argc, char** argv)
 
     // run the ray tracer
     pRayTracer->Run(pScene, "output.png", mode);
+    std::cout << "Ray Tracing complete" << std::endl;
+
 
 
     return 0;

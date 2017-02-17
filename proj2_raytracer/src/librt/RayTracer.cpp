@@ -55,6 +55,7 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
     Camera *cam = pScene->GetCamera();
     Intersection *intersec;
     STImage::Pixel *paint = new STImage::Pixel(0,1,0,1);
+    std::cout << "Scene initialized" << std::endl;
 
     // TO DO: Proj2 raytracer
     //          - Implement the ray tracing algorithm.
@@ -72,10 +73,13 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
     Ray *camRay = new Ray();
     camRay->SetDirection(cam->LookAt());
     camRay->SetOrigin(cam->Position());
+    std::cout << "Camera and ray initialized" << std::endl;
     int intCount = pScene->FindIntersection(*camRay, intersec, true);
+    std::cout << "Scene.FindIntersection complete" << std::endl;
     if (intCount >= 0){
       for (int i = 0; i < 50; i++)
       pImg->SetPixel(i, i, *paint);
+      std::cout << "Pixels painted" << std::endl;
     }
     ///-----------------------------------------------
 

@@ -30,7 +30,7 @@ Sphere::~Sphere()
 //-----------------------------------------------------------------------------
 bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
 {
-
+    std::cout << "Sphere.FindIntersection started" << std::endl;
     bool bFound = false;
 
     // TO DO: Proj2 raytracer
@@ -43,20 +43,36 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
     // and the surface being hit
     //------------------------------------------------
     STVector3 l = m_center - ray.Origin();
+    std::cout << "Length vector: ";
+    l.Print();
     float tca = STVector3::Dot(l, ray.Direction());
+    std::cout << "tca: " << tca << std::endl;
     if (tca < 0) return false;
     float d = sqrtf((STVector3::Dot(l, l) - (tca*tca)));
+    std::cout << "d: " << d << std::endl;
     if (d > m_radius) return false;
     float thc = sqrtf((m_radius * m_radius) - (d*d));
+    std::cout << "thc: " << thc << std::endl;
+
 
     float t0 = tca - thc;
+    std::cout << "t0: " << t0 << std::endl;
     float t1 = tca - thc;
+    std::cout << "t1: " << t1 << std::endl;
+
 
     float t = (t0 < t1 ? t0 : t1);
+    std::cout << "t: " << t << std::endl;
+
 
     STVector3 p = ray.Origin() - (t * ray.Direction());
+    std::cout << "p: ";
+    p.Print();
+
     STVector3 norm = p - m_center;
     norm.Normalize();
+    std::cout << "norm: ";
+    norm.Print();
 
     pIntersection->setDistanceSqu(t);
     pIntersection->setPoint(p);
