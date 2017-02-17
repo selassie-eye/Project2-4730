@@ -44,7 +44,9 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
     //------------------------------------------------
     STVector3 l = m_center - ray.Direction();
     float tca = STVector3::Dot(l, ray.Direction());
+    if (tca < 0) return false;
     float d = sqrtf((STVector3::Dot(l, l) - (tca*tca)));
+    f (d > m_radius) return false;
     float thc = sqrtf((m_radius * m_radius) - (d*d));
 
     float t0 = tca - thc;
@@ -64,5 +66,5 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
    //------------------------------------------------------
 
 
-   return(bFound);
+   return(true);
 }

@@ -38,7 +38,7 @@ RayTracer::~RayTracer()
 //-----------------------------------------------
 void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
 {
-    // begin 
+    // begin
     std::cout << "Running... " << std::endl;
 
     // the color redult from shading
@@ -52,6 +52,8 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
     int height = 400;
     RGBR_f bkground = pScene->GetBackgroundColor();
     STImage *pImg = new STImage(width, height, STImage::Pixel(bkground.r*255, bkground.g*255, bkground.b*255, bkground.a*255));
+    Camera cam = pScene->GetCamera();
+    Intersection *intersec;
 
     // TO DO: Proj2 raytracer
     //          - Implement the ray tracing algorithm.
@@ -66,7 +68,14 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
     // NOTE: STImage stores colors in pixels in the range 0-255
     // If you compute color channels in a range 0-1 you must convert
     //------------------------------------------------
-
+    Ray camRay = new Ray();
+    camRay.SetDirection(cam.LookAt());
+    camRay.SetOrigin(cam.Position());
+    int intCount = pScene->FindIntersection(camRay, intersec, true);
+    if (intCount > 0){
+      for (int i = 0; i < 50; i++)
+      SetPixel(i, i, Pixel(0,1,0,1));
+    }
     ///-----------------------------------------------
 
 
@@ -113,7 +122,6 @@ bool RayTracer::MinimumColor(RGBR_f color)
         return(true);
     }
 
-   
+
     return(false);
 }
-
