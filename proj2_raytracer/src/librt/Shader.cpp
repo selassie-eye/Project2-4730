@@ -75,7 +75,7 @@ RGBR_f Shader::Lambertian(Intersection *pIntersection, STVector3 *lightDirection
     // 2. Do not forget the multiply your albedo by the result
     //---------------------------------------------------------
     float lambert = STVector3::Dot(normal, lightDir);
-    color = RGBR_f(0, 255*lambert*.2, 0, 255);
+    color = RGBR_f(0, 255*lambert*.5, 0, 255);
     //---------------------------------------------------------
 
     return(color);
