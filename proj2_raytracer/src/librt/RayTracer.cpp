@@ -87,14 +87,14 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
         STVector3 dir = STVector3(xRend, yRend, 1);
         dir.Normalize();
         camRay->SetDirection(dir);
-        std::cout << "Camera and ray initialized" << std::endl;
+        //std::cout << "Camera and ray initialized" << std::endl;
 
         int intCount = pScene->FindIntersection(*camRay, intersec, true);
-        std::cout << "Scene.FindIntersection complete, intersection added" << std::endl;
+        //std::cout << "Scene.FindIntersection complete, intersection added" << std::endl;
 
         if (intCount >= 0){
           pImg->SetPixel(x, y, *paint);
-          std::cout << "Pixels painted" << std::endl;
+          //std::cout << "Pixels painted" << std::endl;
         }
       }
     }

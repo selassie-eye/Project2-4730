@@ -118,7 +118,7 @@ int Scene::FindClosestIntersection(Ray ray, Intersection *pIntersection)
 //-----------------------------------------------------
 int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
 {
-    std::cout << "Scene.FindIntersection started." << std::endl;
+    //std::cout << "Scene.FindIntersection started." << std::endl;
     bool bFound = false;
     int numPoints = 0;
 
@@ -127,7 +127,7 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
     SurfaceList::const_iterator iter = m_surfaceList.begin();
     SurfaceList::const_iterator end  = m_surfaceList.end();
     Surface *surf;
-    std::cout << "SurfaceList iterators initialized" << std::endl;
+    //std::cout << "SurfaceList iterators initialized" << std::endl;
 
     for (; iter != end; ++iter) {
         // TO DO: Proj2 raytracer
@@ -138,10 +138,10 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
         // 3. Othersize just add to the list of intersections
         //---------------------------------------------------------
         surf = *iter;
-        std::cout << "Current surface assigned to temp variable" << std::endl;
+        //std::cout << "Current surface assigned to temp variable" << std::endl;
         bFound = surf->FindIntersection(ray, pIntersection);
         if (bFound){
-          std::cout << "Intersection found" << std::endl;
+          //std::cout << "Intersection found" << std::endl;
           numPoints++;
           if (bAny) return numPoints;
         }

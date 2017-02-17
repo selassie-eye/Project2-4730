@@ -30,7 +30,7 @@ Sphere::~Sphere()
 //-----------------------------------------------------------------------------
 bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
 {
-    std::cout << "Sphere.FindIntersection started" << std::endl;
+    //std::cout << "Sphere.FindIntersection started" << std::endl;
     bool bFound = false;
     Intersection *temp = new Intersection();
 
@@ -44,53 +44,53 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
     // and the surface being hit
     //------------------------------------------------
     STVector3 l = m_center - ray.Origin();
-    std::cout << "Length vector: ";
+    //std::cout << "Length vector: ";
     l.Print();
     float tca = STVector3::Dot(l, ray.Direction());
     std::cout << "tca: " << tca << std::endl;
     if (tca < 0){
-      std::cout << "No intersection" << std::endl;
+      //std::cout << "No intersection" << std::endl;
       return false;
     }
     float d = sqrtf((STVector3::Dot(l, l) - (tca*tca)));
     std::cout << "d: " << d << std::endl;
     if (d > m_radius) {
-      std::cout << "No intersection" << std::endl;
+      //std::cout << "No intersection" << std::endl;
       return false;
     }
     float thc = sqrtf((m_radius * m_radius) - (d*d));
-    std::cout << "thc: " << thc << std::endl;
+    //std::cout << "thc: " << thc << std::endl;
 
 
     float t0 = tca - thc;
-    std::cout << "t0: " << t0 << std::endl;
+    //std::cout << "t0: " << t0 << std::endl;
     float t1 = tca + thc;
-    std::cout << "t1: " << t1 << std::endl;
+    //std::cout << "t1: " << t1 << std::endl;
 
 
     float t = (t0 < t1 ? t0 : t1);
-    std::cout << "t: " << t << std::endl;
+    //std::cout << "t: " << t << std::endl;
 
 
     STVector3 p = ray.Origin() + (t * ray.Direction());
-    std::cout << "p: ";
+    //std::cout << "p: ";
     p.Print();
 
     STVector3 norm = p - m_center;
     norm.Normalize();
-    std::cout << "norm: ";
+    //std::cout << "norm: ";
     norm.Print();
 
 
     temp->setDistanceSqu(t);
-    std::cout << "Intersection distance added" << std::endl;
+    //std::cout << "Intersection distance added" << std::endl;
     temp->point = p;
-    std::cout << "Intersection point added" << std::endl;
+    //std::cout << "Intersection point added" << std::endl;
     temp->normal = norm;
-    std::cout << "Intersection normal added" << std::endl;
+    //std::cout << "Intersection normal added" << std::endl;
     temp->surface = this;
-    std::cout << "Intersection surface added" << std::endl;
-    std::cout << "Intersection object created" << std::endl;
+    //std::cout << "Intersection surface added" << std::endl;
+    //std::cout << "Intersection object created" << std::endl;
 
     pIntersection = temp;
 
