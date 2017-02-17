@@ -70,12 +70,12 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
     // If you compute color channels in a range 0-1 you must convert
     //------------------------------------------------
     Ray *camRay = new Ray();
-    camRay.SetDirection(cam->LookAt());
-    camRay.SetOrigin(cam->Position());
+    camRay->SetDirection(cam->LookAt());
+    camRay->SetOrigin(cam->Position());
     int intCount = pScene->FindIntersection(*camRay, intersec, true);
     if (intCount > 0){
       for (int i = 0; i < 50; i++)
-      SetPixel(i, i, paint);
+      pImg->SetPixel(i, i, paint);
     }
     ///-----------------------------------------------
 
