@@ -77,7 +77,7 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
     pIntersection->setDistanceSqu(t);
     pIntersection->setPoint(p);
     pIntersection->setNormal(norm);
-    pIntersection->setSurface(this);
+    pIntersection->setSurface(*this);
     std::cout << "Intersection object created" << std::endl;
 
    //------------------------------------------------------
