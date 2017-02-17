@@ -125,7 +125,7 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
 
     SurfaceList::const_iterator iter = m_surfaceList.begin();
     SurfaceList::const_iterator end  = m_surfaceList.end();
-    Surface surf;
+    Surface *surf;
 
     for (; iter != end; ++iter) {
 
@@ -137,7 +137,7 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
         // 3. Othersize just add to the list of intersections
         //---------------------------------------------------------
         surf = *iter;
-        bFound = surf.FindIntersection(ray, pIntersection);
+        bFound = surf->FindIntersection(ray, pIntersection);
         if (bFound){
           numPoints++;
           intersectionList.push_back(*pIntersection);
