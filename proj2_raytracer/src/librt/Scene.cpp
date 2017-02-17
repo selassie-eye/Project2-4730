@@ -78,7 +78,7 @@ STVector3 Scene::GetLightDirection(void)
 
 // Select the closest intersection and return the number of points
 // very close to this one
-int Scene::SelectClosest(IntersectionList *pIntersectionList, Intersection *pIntersection) 
+int Scene::SelectClosest(IntersectionList *pIntersectionList, Intersection *pIntersection)
 {
 
     int numPoints = 0;
@@ -111,10 +111,10 @@ int Scene::FindClosestIntersection(Ray ray, Intersection *pIntersection)
 // Find the intersection of the ray with objects in the scene
 // Checks for the closest intersections and retuns the number
 // of close intersections found
-// Updates the pIntersection 
+// Updates the pIntersection
 //   -if bAny is true, return the first intersection found
 //   - if bAny is false, return the closest intersection
-// 
+//
 //-----------------------------------------------------
 int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
 {
@@ -135,6 +135,11 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
         //    Do not forget to update the pIntersection before returning
         // 3. Othersize just add to the list of intersections
         //---------------------------------------------------------
+        bFound = *iter->FindIntersection(ray, pIntersection);
+        if (bFound){
+          numPoints++;
+          intersectionList.add(&pIntersection);
+        }
 
     }
 
