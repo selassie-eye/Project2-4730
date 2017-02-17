@@ -93,7 +93,7 @@ void Setup(void)
     Light *light1 = new Light(STVector3(1,1,1), RGBR_f(1,1,1,1), "light1");
     pScene->AddLight(*light1);
     Surface *sphere = new Sphere();
-    pScene->AddSurface(*sphere);
+    pScene->AddSurface(sphere);
     //------------------------------------------------
 
     // init a ray tracer object
