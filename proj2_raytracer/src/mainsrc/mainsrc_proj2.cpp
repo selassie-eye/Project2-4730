@@ -86,10 +86,14 @@ void Setup(void)
     // 1. change background color
     // 2. add lights - I suggest at least two light and an additional ambient light
     // 3. add objects - e.g. a sphere, a triangle
-    // 4. add translation and rotation operations to place objects 
+    // 4. add translation and rotation operations to place objects
     //   (OR make sure you define your objects so they are scene by the camera)
     //------------------------------------------------
-
+    pScene->SetBackgroundColor(RGBR_f(0,0,0,0));
+    light *light1 = new Light(STVector3(1,1,1), RGBR_f(1,1,1,1), "light1");
+    pScene->AddLight(*light1);
+    Surface *sphere = new Sphere();
+    pScene->AddSurface(*sphere);
     //------------------------------------------------
 
     // init a ray tracer object
@@ -186,7 +190,7 @@ void MouseCallback(int button, int state, int x, int y)
     {
         gMouseButton = -1;
     }
-    
+
     if (state == GLUT_UP)
     {
         gPreviousMouseX = -1;
@@ -207,7 +211,7 @@ void MouseMotionCallback(int x, int y)
         float deltaY = y-gPreviousMouseY;
         gPreviousMouseX = x;
         gPreviousMouseY = y;
-        
+
         //orbit, strafe, or zoom
         if (gMouseButton == GLUT_LEFT_BUTTON)
         {
@@ -221,19 +225,19 @@ void MouseMotionCallback(int x, int y)
         {
             pScene->GetCamera()->Zoom(deltaY);
         }
-        
+
     } else
     {
         gPreviousMouseX = x;
         gPreviousMouseY = y;
     }
-    
+
 }
 
 
 
 // If the commandline input is incorrect, notifies the user.
-void usage(const char *myname) 
+void usage(const char *myname)
 {
     fprintf(stderr, "Usage: %s\nmodes:\n1 Lambertian\n2 Phong\n3 Mirror\n4 Environment Map\n5 Effect_1\n6 Effect_2\n7 Effect_3", myname);
     exit(0);
@@ -257,7 +261,7 @@ RenderMode parseArgs(int argc, char **argv)
         (mode == EFFECT_1) ||
         (mode == EFFECT_2) ||
         (mode == EFFECT_3))) {
-            usage(argv[0]);        
+            usage(argv[0]);
     }
 
     return(mode);
@@ -282,7 +286,7 @@ int main(int argc, char** argv)
     // Set the render mode.
     // 1. Here, we read in the render mode.
     //    The render modes are defined in the RenderMode enum in file Defs.h
-    //    If you make any changes to RenderMode or input parameters, you have to 
+    //    If you make any changes to RenderMode or input parameters, you have to
     //    update parseArgs(int argc, char **argv).
     //------------------------------------------------
     RenderMode mode = parseArgs(argc, argv);
