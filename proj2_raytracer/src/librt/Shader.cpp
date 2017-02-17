@@ -64,6 +64,8 @@ RGBR_f Shader::Lambertian(Intersection *pIntersection, STVector3 *lightDirection
     assert(pIntersection);
     assert(lightDirection);
 
+    STVector3 normal = pIntersection->normal;
+    STVector3 lightDir = *lightDirection;
     RGBR_f color;
 
     // TO DO: Proj2 raytracer
@@ -72,7 +74,7 @@ RGBR_f Shader::Lambertian(Intersection *pIntersection, STVector3 *lightDirection
     //    normal and light direction
     // 2. Do not forget the multiply your albedo by the result
     //---------------------------------------------------------
-    float lambert = STVector3::Dot(pIntersection->normal, lightDirection);
+    float lambert = STVector3::Dot(normal, lightDir);
     color = RGBR_f(0, 255*lambert, 0, 255);
     //---------------------------------------------------------
 
