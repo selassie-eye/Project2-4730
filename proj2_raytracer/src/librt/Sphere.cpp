@@ -32,6 +32,7 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
 {
     std::cout << "Sphere.FindIntersection started" << std::endl;
     bool bFound = false;
+    Intersection temp = new Intersection();
 
     // TO DO: Proj2 raytracer
     //          - Find Intersections.
@@ -75,15 +76,17 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
     norm.Print();
 
 
-    pIntersection->setDistanceSqu(t);
+    temp.setDistanceSqu(t);
     std::cout << "Intersection distance added" << std::endl;
-    pIntersection->point = p;
+    temp.point = p;
     std::cout << "Intersection point added" << std::endl;
-    pIntersection->normal = norm;
+    temp.normal = norm;
     std::cout << "Intersection normal added" << std::endl;
-    pIntersection->surface = this;
+    temp.surface = this;
     std::cout << "Intersection surface added" << std::endl;
     std::cout << "Intersection object created" << std::endl;
+
+    pIntersection = &temp;
 
    //------------------------------------------------------
 
