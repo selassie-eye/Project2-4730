@@ -52,14 +52,14 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
 
     float t = (t0 < t1 ? t0 : t1);
 
-    STVector3 p = ray.Origin() - (t * ray.Directon());
+    STVector3 p = ray.Origin() - (t * ray.Direction());
     STVector3 norm = p - m_center;
     norm.Normalize();
 
     pIntersection->setDistanceSqu(t);
     pIntersection->setPoint(p);
     pIntersection->setNormal(norm);
-    pIntersection->setSurface(*this);
+    pIntersection->setSurface(this);
 
    //------------------------------------------------------
 
