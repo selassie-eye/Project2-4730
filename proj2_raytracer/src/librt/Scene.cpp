@@ -70,6 +70,8 @@ STVector3 Scene::GetLightDirection(void)
     //          - Compute light direction.
     // 1. Return the direction of the light in the scene
     //---------------------------------------------------------
+    Light light = LightList.front();
+    lightDirection = light.GetPosition();
     //---------------------------------------------------------
 
     return(lightDirection);

@@ -34,6 +34,8 @@ public:
     void setPoint (STVector3 p);
     void setNormal (STVector3 n);
     void setSurface (Surface *s);
+
+    Boolean isNull();
 };
 
 

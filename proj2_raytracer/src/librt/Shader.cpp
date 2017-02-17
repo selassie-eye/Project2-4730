@@ -30,6 +30,11 @@ RGBR_f Shader::Run(Intersection *pIntersection, STVector3 *lightDirection)
 {
     RGBR_f color;
 
+    if (pIntersection->isNull){
+      color = RGBR_f(255, 0, 0, 255);
+      return color;
+    }
+
     switch (m_mode) {
         case LAMBERTIAN:
             color = Lambertian(pIntersection, lightDirection);
@@ -67,7 +72,8 @@ RGBR_f Shader::Lambertian(Intersection *pIntersection, STVector3 *lightDirection
     //    normal and light direction
     // 2. Do not forget the multiply your albedo by the result
     //---------------------------------------------------------
-
+    float lambert = STVector3::Dot(pIntersection->normal, lightDirection);
+    color = RGBR_f(0, 255*lambert, 0, 255);
     //---------------------------------------------------------
 
     return(color);
@@ -86,7 +92,7 @@ RGBR_f Shader::Phong(Intersection *pIntersection, STVector3 *lightDirection)
     // TO DO: Proj2 raytracer
     //          - Add Phong shading.
     // 1. Implement the phong shading equation here
-    // 2. Remember to add any attributes you might need for shading to 
+    // 2. Remember to add any attributes you might need for shading to
     //    your surface objects as they are passed in with the pIntersection
     //---------------------------------------------------------
     //---------------------------------------------------------
@@ -106,4 +112,3 @@ Shader::~Shader()
 // 2. See the Run function to see when each shading function is called
 //---------------------------------------------------------
 //---------------------------------------------------------
-

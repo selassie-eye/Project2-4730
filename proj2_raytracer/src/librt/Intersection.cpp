@@ -32,3 +32,5 @@ void Intersection::setDistanceSqu(float d){ distanceSqu = d; }
 void Intersection::setPoint(STVector3 p){ point = point; }
 void Intersection::setNormal(STVector3 n){ normal = n; }
 void Intersection::setSurface(Surface *s){ surface = s; }
+
+Boolean Intersection::isNull(){return (surface == NULL);}
