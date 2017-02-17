@@ -54,7 +54,7 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
     STImage *pImg = new STImage(width, height, STImage::Pixel(bkground.r*255, bkground.g*255, bkground.b*255, bkground.a*255));
     Camera *cam = pScene->GetCamera();
     Intersection *intersec;
-    Pixel paint = new Pixel(0,1,0,1);
+    STImage::Pixel paint = new STImage::Pixel(0,1,0,1);
 
     // TO DO: Proj2 raytracer
     //          - Implement the ray tracing algorithm.
