@@ -57,7 +57,7 @@ struct STVector3
     //
     inline void Print()
     {
-      std::cout << "X: " << x << " Y: " << y << " Z: " << z << std:endl;
+      std::cout << "X: " << x << " Y: " << y << " Z: " << z << std::endl;
     }
 
     //
