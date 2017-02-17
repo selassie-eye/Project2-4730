@@ -73,7 +73,7 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
     Ray *camRay = new Ray();
     camRay->SetOrigin(cam->Position());
     STVector3 temp = pScene->GetLightDirection();
-    STVector3 lightDir = &temp;
+    STVector3 *lightDir = &temp;
 
     float iWidth = 1/float(width);
     float iHeight = 1/float(height);
