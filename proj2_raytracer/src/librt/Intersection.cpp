@@ -28,7 +28,7 @@ Intersection::~Intersection(void)
 
 }
 
-Intersection::setDistanceSqu(float d){ distanceSqu = d; }
-Intersection::setPoint(STVector3 p){ point = point; }
-Intersection::setNormal(STVector3 n){ normal = n; }
-Intersection::setSurface(Surface *s){ surface = s; }
+void Intersection::setDistanceSqu(float d){ distanceSqu = d; }
+void Intersection::setPoint(STVector3 p){ point = point; }
+void Intersection::setNormal(STVector3 n){ normal = n; }
+void Intersection::setSurface(Surface *s){ surface = s; }
