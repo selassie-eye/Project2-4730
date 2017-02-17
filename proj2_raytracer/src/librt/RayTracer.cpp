@@ -92,7 +92,7 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
         int intCount = pScene->FindIntersection(*camRay, intersec, true);
         //std::cout << "Scene.FindIntersection complete, intersection added" << std::endl;
 
-        if (intCount >= 0){
+        if (intCount > 0){
           pImg->SetPixel(x, y, *paint);
           //std::cout << "Pixels painted" << std::endl;
         }
