@@ -30,7 +30,7 @@ public:
     STVector3       normal;
     Surface         *surface;
 
-    float setDistanceSqu(float d);
+    void setDistanceSqu(float d);
     void setPoint (STVector3 p);
     void setNormal (STVector3 n);
     void setSurface (Surface *s);
