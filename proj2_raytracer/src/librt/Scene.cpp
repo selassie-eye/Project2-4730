@@ -137,7 +137,7 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
         // 3. Othersize just add to the list of intersections
         //---------------------------------------------------------
         surf = *iter;
-        bFound = surf->FindIntersection(ray, pIntersection);
+        bFound = surf.FindIntersection(ray, pIntersection);
         if (bFound){
           numPoints++;
           intersectionList.push_back(*pIntersection);
