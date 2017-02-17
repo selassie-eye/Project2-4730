@@ -90,7 +90,7 @@ void Setup(void)
     //   (OR make sure you define your objects so they are scene by the camera)
     //------------------------------------------------
     pScene->SetBackgroundColor(RGBR_f(0,0,0,1));
-    Light *light1 = new Light(STVector3(1,1,1), RGBR_f(1,0,0,1), "light1");
+    Light *light1 = new Light(STVector3(-1,1,1), RGBR_f(1,0,0,1), "light1");
     pScene->AddLight(*light1);
     Surface *sphere = new Sphere();
     pScene->AddSurface(sphere);
