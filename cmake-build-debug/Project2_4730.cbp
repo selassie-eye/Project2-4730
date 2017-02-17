@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project2_4730"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project2_4730">
+				<Option output="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/cmake-build-debug/Project2_4730" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2_4730"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project2_4730/fast">
+				<Option output="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/cmake-build-debug/Project2_4730" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2_4730/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khariollivierre/Documents/Spring\ 2017/CAP\ 4730/Project2-4730/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/include/GL/freeglut.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/include/GL/freeglut_ext.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/include/GL/freeglut_std.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/include/GL/glui.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/include/GL/glut.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Camera.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Intersection.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Light.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/LinearSolver.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/RGBR_f.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Ray.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/RayTracer.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Scene.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Shader.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Sphere.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Surface.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Triangle.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/Camera.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/Intersection.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/Light.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/LinearSolver.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/Lists.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/RGBR_f.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/Ray.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/RayTracer.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/Scene.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/Shader.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/Sphere.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/Surface.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/Triangle.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/defs.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/include/utilities.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/utilities.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor3f.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor4f.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor4ub.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STFont.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STImage.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STImage_jpeg.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STImage_png.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STImage_ppm.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STJoystick.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STJoystick_darwin.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STJoystick_linux.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STJoystick_win32.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STMatrix4.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STPoint2.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STPoint3.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STShaderProgram.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STShape.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STTexture.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STTimer.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STTriangleMesh.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STVector2.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STVector3.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/config/ftconfig.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/config/ftheader.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/config/ftmodule.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/config/ftoption.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/config/ftstdlib.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/freetype.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftbbox.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftbdf.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftbitmap.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftcache.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftchapters.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/fterrdef.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/fterrors.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftgasp.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftglyph.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftgxval.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftgzip.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftimage.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftincrem.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftlcdfil.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftlist.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftlzw.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftmac.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftmm.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftmodapi.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftmoderr.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftotval.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftoutln.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftpfr.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftrender.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftsizes.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftsnames.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftstroke.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftsynth.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftsystem.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/fttrigon.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/fttypes.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftwinfnt.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ftxf86.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/autohint.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/ftcalc.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/ftdebug.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/ftdriver.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/ftgloadr.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/ftmemory.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/ftobjs.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/ftrfork.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/ftserv.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/ftstream.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/fttrace.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/ftvalid.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/internal.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/pcftypes.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/psaux.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/pshints.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svbdf.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svgldict.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svgxval.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svkern.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svmm.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svotval.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svpfr.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svpostnm.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svpscmap.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svpsinfo.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svsfnt.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svttcmap.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svtteng.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svwinfnt.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/services/svxf86nm.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/sfnt.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/t1types.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/internal/tttypes.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/t1tables.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ttnameid.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/tttables.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/tttags.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/freetype/ttunpat.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/freetype/include/ft2build.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/glew/include/GL/glew.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/glew/include/GL/glxew.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/glew/include/GL/wglew.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/libjpeg/include/jconfig.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/libjpeg/include/jerror.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/libjpeg/include/jmorecfg.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/libjpeg/include/jpeglib.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/libpng/include/libpng13/png.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/libpng/include/libpng13/pngconf.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/libpng/include/png.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/libpng/include/pngconf.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/zlib/include/zconf.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/zlib/include/zlib.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ext/zlib/include/zutil.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STColor3f.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STColor4f.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STColor4ub.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STFont.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STImage.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STJoystick.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STMatrix4.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STPoint2.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STPoint3.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STShaderProgram.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STShape.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STTexture.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STTimer.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STTriangleMesh.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STUtil.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STVector2.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/STVector3.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/st.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/stForward.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/stgl.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/stglut.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/include/tiny_obj_loader.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/tiny_obj_loader.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/mainsrc_proj2.cpp">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/stglew.h">
+			<Option target="Project2_4730"/>
+		</Unit>
+		<Unit filename="/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

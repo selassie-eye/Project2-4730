@@ -1,0 +1,454 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Camera.cpp
+Camera.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Camera.h
+assert.h
+-
+stdio.h
+-
+string
+-
+STMatrix4.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/STMatrix4.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Intersection.cpp
+Intersection.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Intersection.h
+Surface.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Surface.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Light.cpp
+Light.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Light.h
+assert.h
+-
+stdio.h
+-
+string
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/LinearSolver.cpp
+LinearSolver.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/LinearSolver.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/RGBR_f.cpp
+RGBR_f.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/RGBR_f.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Ray.cpp
+Ray.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Ray.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/RayTracer.cpp
+RayTracer.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/RayTracer.h
+assert.h
+-
+stdio.h
+-
+string
+-
+utilities.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/utilities.h
+STImage.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/STImage.h
+Shader.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Shader.h
+STColor4ub.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/STColor4ub.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Scene.cpp
+Scene.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Scene.h
+assert.h
+-
+stdio.h
+-
+string
+-
+Intersection.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Intersection.h
+Surface.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Surface.h
+Light.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Light.h
+Sphere.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Sphere.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Shader.cpp
+Shader.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Shader.h
+assert.h
+-
+Intersection.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Intersection.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Sphere.cpp
+Sphere.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Sphere.h
+assert.h
+-
+stdio.h
+-
+string
+-
+defs.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/defs.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Surface.cpp
+Surface.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Surface.h
+assert.h
+-
+stdio.h
+-
+string
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Triangle.cpp
+Triangle.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/Triangle.h
+LinearSolver.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/LinearSolver.h
+defs.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/defs.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/utilities.cpp
+utilities.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/librt/utilities.h
+limits
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor3f.cpp
+STColor3f.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor3f.h
+STColor4f.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor4f.h
+STColor4ub.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor4ub.h
+math.h
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor4f.cpp
+STColor4f.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor4f.h
+STColor3f.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor3f.h
+STColor4ub.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor4ub.h
+STUtil.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STUtil.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor4ub.cpp
+STColor4ub.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor4ub.h
+STColor3f.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor3f.h
+STColor4f.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STColor4f.h
+STUtil.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STUtil.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STFont.cpp
+STFont.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STFont.h
+st.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/st.h
+stgl.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/stgl.h
+map
+-
+vector
+-
+stdlib.h
+-
+ft2build.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/ft2build.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STImage.cpp
+STImage.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STImage.h
+stgl.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/stgl.h
+st.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/st.h
+assert.h
+-
+stdio.h
+-
+string
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STImage_jpeg.cpp
+STImage.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STImage.h
+st.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/st.h
+jpeglib.h
+-
+assert.h
+-
+setjmp.h
+-
+stdio.h
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STImage_png.cpp
+STImage.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STImage.h
+st.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/st.h
+png.h
+-
+setjmp.h
+-
+stdio.h
+-
+string
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STImage_ppm.cpp
+STImage.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STImage.h
+st.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/st.h
+string.h
+-
+stdio.h
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STJoystick.cpp
+STJoystick.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STJoystick.h
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STJoystick_darwin.cpp
+STJoystick.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STJoystick.h
+unistd.h
+-
+ctype.h
+-
+sysexits.h
+-
+mach/mach.h
+-
+mach/mach_error.h
+-
+IOKit/IOKitLib.h
+-
+IOKit/IOCFPlugIn.h
+-
+IOKit/hidsystem/IOHIDUsageTables.h
+-
+Kernel/IOKit/hidsystem/IOHIDUsageTables.h
+-
+IOKit/hid/IOHIDLib.h
+-
+IOKit/hid/IOHIDKeys.h
+-
+CoreFoundation/CoreFoundation.h
+-
+Carbon/Carbon.h
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STJoystick_linux.cpp
+sys/stat.h
+-
+unistd.h
+-
+fcntl.h
+-
+sys/ioctl.h
+-
+limits.h
+-
+linux/joystick.h
+-
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+STJoystick.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STJoystick.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STJoystick_win32.cpp
+windows.h
+-
+mmsystem.h
+-
+regstr.h
+-
+stdio.h
+-
+stdlib.h
+-
+STJoystick.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STJoystick.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STMatrix4.cpp
+STMatrix4.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STMatrix4.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STPoint2.cpp
+STPoint2.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STPoint2.h
+STVector2.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STVector2.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STPoint3.cpp
+STPoint3.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STPoint3.h
+STVector3.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STVector3.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STShaderProgram.cpp
+GL/glew.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/GL/glew.h
+GL/gl.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/GL/gl.h
+STShaderProgram.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STShaderProgram.h
+st.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/st.h
+assert.h
+-
+string
+-
+fstream
+-
+sstream
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STShape.cpp
+STShape.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STShape.h
+st.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/st.h
+stgl.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/stgl.h
+assert.h
+-
+stdio.h
+-
+map
+-
+math.h
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STTexture.cpp
+STTexture.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STTexture.h
+st.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/st.h
+stgl.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/stgl.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STTimer.cpp
+STTimer.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STTimer.h
+stdlib.h
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STTriangleMesh.cpp
+STTriangleMesh.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STTriangleMesh.h
+OpenGL/gl.h
+-
+GL/glew.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/GL/glew.h
+GL/gl.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/GL/gl.h
+STTexture.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STTexture.h
+iostream
+-
+fstream
+-
+map
+-
+math.h
+-
+string.h
+-
+algorithm
+-
+tiny_obj_loader.h
+-
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STVector2.cpp
+STVector2.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STVector2.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STVector3.cpp
+STVector3.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/STVector3.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/tiny_obj_loader.cpp
+cstdlib
+-
+cstring
+-
+cassert
+-
+string
+-
+vector
+-
+map
+-
+fstream
+-
+sstream
+-
+tiny_obj_loader.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/libst/tiny_obj_loader.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/mainsrc_proj2.cpp
+string
+-
+algorithm
+-
+stglew.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/stglew.h
+stdio.h
+-
+string.h
+-
+map
+-
+Scene.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/Scene.h
+RayTracer.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/RayTracer.h
+Light.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/Light.h
+Sphere.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/Sphere.h
+Triangle.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/Triangle.h
+defs.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/defs.h
+
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/stglew.h
+GL/glew.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/GL/glew.h
+st.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/st.h
+stglut.h
+/Users/khariollivierre/Documents/Spring 2017/CAP 4730/Project2-4730/proj2_raytracer/src/mainsrc/stglut.h
+

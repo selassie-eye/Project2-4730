@@ -6,12 +6,13 @@
 #include <stdio.h>
 #include <string>
 #include "defs.h"
+#include <tgmath.h>
 
 // constructor
 Sphere::Sphere(void)
     : m_radius(0.5)
 {
-      m_center = STVector3(0,0,0);
+      m_center = STVector3(0,0,5);
 }
 
 
@@ -27,7 +28,7 @@ Sphere::~Sphere()
 // if it an intersection exist, return true; otherwise false
 // return the intersection point information in pIntersection
 //-----------------------------------------------------------------------------
-bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection) 
+bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
 {
 
     bool bFound = false;
@@ -35,16 +36,34 @@ bool Sphere::FindIntersection(Ray ray, Intersection *pIntersection)
     // TO DO: Proj2 raytracer
     //          - Find Intersections.
     // 1. Find intersections with this object along the Ray ray
-    // 2. Store the results of the intersection 
+    // 2. Store the results of the intersection
     // 3. if found and return true, otherwise, return false
     // NOTE: The IntersectionPoint pIntersection should store:
     // hit point, surface normal, the time t of the ray at the hit point
     // and the surface being hit
     //------------------------------------------------
+    STVector3 l = m_center - ray.Direction();
+    float tca = STVector3::Dot(l, ray.Direction());
+    float d = sqrt((STVector3::Dot(l, l) - (tca*tca)));
+    float thc = sqrt((m_radius * m_radius) - (d*d));
+
+    float t0 = tca - thc;
+    float t1 = tca - thc;
+
+    float t = (t0 < t1 ? t0 : t1);
+
+    STVector3 p = ray.Origin() - (t * ray.Directon());
+    STVector3 norm = p - m_center;
+    norm.Normalize();
+
+    Intersection int = new Intersection();
+    int.setDistanceSqu(t);
+    int.setPoint(p);
+    int.setNormal(norm);
+    int.setSurface(*this);
 
    //------------------------------------------------------
 
 
    return(bFound);
 }
-

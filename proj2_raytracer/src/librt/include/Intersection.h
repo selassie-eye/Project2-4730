@@ -24,13 +24,17 @@ public:
 
                     Intersection                       (void);
                     ~Intersection                      (void);
-    
+
     float           distanceSqu;
     STVector3       point;
     STVector3       normal;
     Surface         *surface;
+
+    float setDistanceSqu(float d);
+    void setPoint (STVector3 p);
+    void setNormal (STVector3 n);
+    void setSurface (Surface *s);
 };
 
 
 #endif //__INTERSECTION_H__
-
