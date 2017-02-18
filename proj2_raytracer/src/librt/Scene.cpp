@@ -142,7 +142,7 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
         surf = *iter;
         //std::cout << "Current surface assigned to temp variable" << std::endl;
         bFound = surf->FindIntersection(ray, pIntersection);
-        intersectionList.push_back(pIntersection);
+        intersectionList.push_back(*pIntersection);
         if (bFound){
           //std::cout << "Intersection found" << std::endl;
           numPoints++;
@@ -159,7 +159,7 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
     IntersectionList::const_iterator endd  = intersectionList.end();
     Intersection closest = intersectionList.front();
     for (; iterr != endd; ++iterr) {
-      if (closest.distanceSqu >= *iterr->distanceSqu) closest = *iterr;
+      if (closest.distanceSqu >= iterr->distanceSqu) closest = *iterr;
     }
     pIntersection = closest;
 
