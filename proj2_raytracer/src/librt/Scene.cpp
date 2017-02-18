@@ -156,7 +156,7 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
     IntersectionList::const_iterator endd  = intersectionList.end();
     Intersection closest = intersectionList.front();
     for (; iterr != endd; ++iterr) {
-      if (closest.distanceSqu >= iterr->distanceSqu) closest = *iterr;
+      if (closest.distanceSqu <= iterr->distanceSqu) closest = *iterr;
     }
     *pIntersection = closest;
 
