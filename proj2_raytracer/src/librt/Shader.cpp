@@ -107,7 +107,7 @@ RGBR_f Shader::Phong(Intersection *pIntersection, STVector3 *lightDirection)
     //    your surface objects as they are passed in with the pIntersection
     //---------------------------------------------------------
     float pDiff = std::max(0.f, STVector3::Dot(normal, -lightDir));
-    RGBR_f diffuse = RGBR_f(0, 255*pDiff*albedo*kd, 0, 255));
+    RGBR_f diffuse = RGBR_f(0, 255*pDiff*albedo*kd, 0, 255);
 
     STVector3 ref = lightDir - (2 * STVector3(lightDir, hitNormal) * hitNormal);
     float pSpec = std::pow(std::max(0.f, STVector3::Dot(ref, STVector3(0,0,-1))), n);
