@@ -96,10 +96,10 @@ RGBR_f Shader::Phong(Intersection *pIntersection, STVector3 *lightDirection)
     STVector3 normal = pIntersection->normal;
     STVector3 lightDir = *lightDirection;
     RGBR_f color;
-    float albedo = 5;
-    float kd = 5;
-    float ks = 5;
-    float n = 5;
+    float albedo = 1;
+    float kd = 1;
+    float ks = 1;
+    float n = 1;
 
     // TO DO: Proj2 raytracer
     //          - Add Phong shading.
