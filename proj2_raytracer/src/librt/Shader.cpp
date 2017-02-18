@@ -95,6 +95,7 @@ RGBR_f Shader::Phong(Intersection *pIntersection, STVector3 *lightDirection)
     STVector3 normal = pIntersection->normal;
     STVector3 lightDir = *lightDirection;
     RGBR_f color;
+    float albedo = 5;
     float kd = 5;
     float ks = 5;
     float n = 5;
