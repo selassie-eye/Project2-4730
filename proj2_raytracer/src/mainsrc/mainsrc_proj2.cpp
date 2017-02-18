@@ -92,8 +92,8 @@ void Setup(void)
     pScene->SetBackgroundColor(RGBR_f(0,0,0,1));
     Light *light1 = new Light(STVector3(-1,1,1), RGBR_f(1,0,0,1), "light1");
     pScene->AddLight(*light1);
-    Surface *triangle = new Triangle();
-    pScene->AddSurface(triangle);
+    Surface *sphere = new Sphere();
+    pScene->AddSurface(sphere);
     std::cout << "Scene initialize" << std::endl;
     //------------------------------------------------
 
