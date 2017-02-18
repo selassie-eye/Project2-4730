@@ -90,7 +90,7 @@ void RayTracer::Run(Scene *pScene, std::string fName, RenderMode mode)
         camRay->SetDirection(dir);
         //std::cout << "Camera and ray initialized" << std::endl;
 
-        int intCount = pScene->FindIntersection(*camRay, intersec, true);
+        int intCount = pScene->FindIntersection(*camRay, intersec, false);
         //std::cout << "Scene.FindIntersection complete, intersection added" << std::endl;
         RGBR_f color = pShader->Run(intersec, lightDir);
         STImage::Pixel paint = STImage::Pixel(color.r,color.g,color.b,color.a);
