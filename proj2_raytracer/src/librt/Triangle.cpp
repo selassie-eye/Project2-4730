@@ -73,7 +73,7 @@ bool Triangle::FindIntersection (Ray ray, Intersection *pIntersection)
     // hit point, surface normal, the time t of the ray at the hit point
     // and the surface being hit
     //------------------------------------------------
-    STVector3 normal = ComputeNormalVector()
+    STVector3 normal = ComputeNormalVector();
     float d = STVector3::Dot(normal, m_a);
     float t = -(STVector3::Dot(normal, ray.Origin() + d)/STVector3::Dot(normal, ray.Direction());
     if (t < 0) return false;
