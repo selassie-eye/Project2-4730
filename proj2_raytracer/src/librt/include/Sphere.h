@@ -15,12 +15,13 @@
 #include "Intersection.h"
 
 
-class Sphere  : public Surface 
+class Sphere  : public Surface
 {
 
 public:
                                 Sphere                              (void);
                                 ~Sphere                             (void);
+                                Sphere (float r);
 
     bool                FindIntersection                    (Ray ray, Intersection *pIntersection);
 
@@ -40,4 +41,3 @@ private:
 
 
 #endif //__SPHERE_H__
-

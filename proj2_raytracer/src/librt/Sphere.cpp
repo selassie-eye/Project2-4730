@@ -4,6 +4,7 @@
 #include "Sphere.h"
 #include <assert.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <string>
 #include "defs.h"
 #include <tgmath.h>
@@ -13,6 +14,11 @@ Sphere::Sphere(void)
     : m_radius(0.5)
 {
       m_center = STVector3(0,0,5);
+}
+
+Sphere::Sphere(float r)
+{     m_radius = r;
+      m_center = STVector3(0,0,float(rand() % 15 + 1));
 }
 
 
