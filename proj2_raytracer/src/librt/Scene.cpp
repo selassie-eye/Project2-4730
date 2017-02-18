@@ -138,7 +138,7 @@ int Scene::FindIntersection(Ray ray, Intersection *pIntersection, bool bAny)
         //    Do not forget to update the pIntersection before returning
         // 3. Othersize just add to the list of intersections
         //---------------------------------------------------------
-        bFound = iter->FindIntersection(ray, pIntersection);
+        bFound = (*iter)->FindIntersection(ray, pIntersection);
         intersectionList.push_back(*pIntersection);
         if (bFound){
           //std::cout << "Intersection found" << std::endl;
