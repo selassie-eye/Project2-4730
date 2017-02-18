@@ -103,7 +103,7 @@ STVector3 Triangle::ComputeNormalVector(void)
     // 1. Compute the surface surface normal to the
     // plane whose points are m_a, m_b, and m_c
     //------------------------------------------------
-    normal = STVector3::Cross((m_a - m_b) (m_b - m_c));
+    normal = STVector3::Cross((m_a - m_b), (m_b - m_c));
     normal.Normalize();
     //---------------------------------------------------
 
