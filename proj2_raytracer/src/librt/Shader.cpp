@@ -112,7 +112,7 @@ RGBR_f Shader::Phong(Intersection *pIntersection, STVector3 *lightDirection)
 
     STVector3 ref = lightDir - (2 * STVector3::Dot(lightDir, normal) * normal);
     float pSpec = pow(fmax(0.f, STVector3::Dot(ref, STVector3(0,0,-1))), n);
-    RGBR_f specular = RGBR_f(0, 255 * pSpec * ks, normal), 0, 255);
+    RGBR_f specular = RGBR_f(0, 255 * pSpec * ks, normal, 0, 255);
 
     color = RGBR_f(diffuse.r + specular.r, diffuse.g + specular.g, diffuse.b + specular.b, 255);
     //---------------------------------------------------------
