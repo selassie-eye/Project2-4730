@@ -18,7 +18,7 @@ Sphere::Sphere(void)
 
 Sphere::Sphere(float r)
 {     m_radius = r;
-      m_center = STVector3((rand() % 2 ? 1 : -1)*float(rand())/float(RAND_MAX),(rand() % 2 ? 1 : -1)*float(rand())/float(RAND_MAX),float(rand() % 5 + 1));
+      m_center = STVector3(0,0,float(rand() % 5 + 1));
 }
 
 
