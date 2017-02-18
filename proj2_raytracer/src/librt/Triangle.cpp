@@ -75,7 +75,7 @@ bool Triangle::FindIntersection (Ray ray, Intersection *pIntersection)
     //------------------------------------------------
     STVector3 normal = ComputeNormalVector();
     float d = STVector3::Dot(normal, m_a);
-    float t = -(STVector3::Dot(normal, ray.Origin() + d)/STVector3::Dot(normal, ray.Direction());
+    float t = -(STVector3::Dot(normal, ray.Origin() + d)/STVector3::Dot(normal, ray.Direction()));
     if (t < 0) return false;
     STVector3 p = ray.Origin() + (t * ray.Direction());
 
