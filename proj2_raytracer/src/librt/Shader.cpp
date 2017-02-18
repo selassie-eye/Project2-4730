@@ -67,7 +67,7 @@ RGBR_f Shader::Lambertian(Intersection *pIntersection, STVector3 *lightDirection
     STVector3 normal = pIntersection->normal;
     STVector3 lightDir = *lightDirection;
     RGBR_f color;
-    float albedo = .5;
+    float albedo = 5;
 
     // TO DO: Proj2 raytracer
     //          - Add shading lambertian shading.
