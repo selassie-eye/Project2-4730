@@ -97,7 +97,7 @@ RGBR_f Shader::Phong(Intersection *pIntersection, STVector3 *lightDirection)
     RGBR_f color;
     float kd = 5;
     float ks = 5;
-    float n = 5
+    float n = 5;
 
     // TO DO: Proj2 raytracer
     //          - Add Phong shading.
